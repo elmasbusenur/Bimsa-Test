@@ -664,6 +664,7 @@ except TimeoutException:
     print("Loading took too much time!")
 
 try:
+
     obHaftaTatiliDegisimFormID = "sd87"
     obHaftaTatiliDegisimFormLink = driver.find_element_by_id(obHaftaTatiliDegisimFormID)
     obHaftaTatiliDegisimFormLink.click()
@@ -739,3 +740,4 @@ try:
     obKadroTalepFormLink.click()
 except TimeoutException:
     print("Loading took too much time!")
+drive.close()
